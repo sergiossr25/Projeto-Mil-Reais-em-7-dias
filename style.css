@@ -51,7 +51,12 @@ body {
 }
 
 video {
-    width: 100vw;
+   min-height: 100%;
+   min-width: 100%;
+   position: fixed;
+   top: 0;
+
+
 }
 .mascara {
     height: 100%;
@@ -95,5 +100,55 @@ p{
     color: #C51111;
     font-size: 26px;
     transition: 0.5s ease-in-out;
-
 }
+
+.foemulario-fale-conosco {
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    left: -300px;
+    top: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+input{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18D80f;
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18D80f;
+}
+
+.mascara-formulario {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+/*
+
+Inicial
+    top: 30%;
+    left: -300px;
+
+Final
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+*/
