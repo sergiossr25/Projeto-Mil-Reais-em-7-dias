@@ -102,7 +102,7 @@ p{
     transition: 0.5s ease-in-out;
 }
 
-.foemulario-fale-conosco {
+.formulario-fale-conosco {
     background-color: white;
     display: flex;
     gap: 20px;
@@ -133,6 +133,7 @@ textarea {
 }
 
 .mascara-formulario {
+    visibility: hidden;
     position: fixed;
     top: 0;
     width: 100vw;
